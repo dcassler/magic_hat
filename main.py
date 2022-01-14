@@ -313,6 +313,7 @@ if __name__ == "__main__":
                 except KeyboardInterrupt: # Catches the interupt signal
                     os.system('cls' if os.name == 'nt' else 'clear') # Clear Function
                     pass
+            else: print("That's not a valid input!")
     except KeyboardInterrupt: # Catches the interupt signal
         print("Thank you for playing magic hat!")
         exit()
